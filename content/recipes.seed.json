@@ -1,0 +1,1419 @@
+{
+  "ageGroups": [
+    {
+      "ageGroup": "6-8-bulan",
+      "label": "6 - 8 BULAN",
+      "recipes": [
+        {
+          "id": "6-8-bubur-hati-wortel",
+          "title": "Bubur Hati Wortel",
+          "servings": 1,
+          "ingredients": [
+            "Nasi 30 gr",
+            "Wortel 10 gr",
+            "Tahu 15 gr",
+            "Bawang putih 1 buah",
+            "Bawang merah 1 buah",
+            "Hati ayam rebus 35 gr",
+            "Minyak kelapa 1 sdm",
+            "Bone Broth 30 mL",
+            "Daun salam",
+            "Daun jeruk",
+            "Air matang 200 mL"
+          ],
+          "instructions": [
+            "Cuci bersih seluruh bahan. Kupas wortel, bawang merah, dan bawang putih, kemudian potong kecil-kecil agar cepat matang.",
+            "Rebus hati ayam hingga matang sempurna (±15 menit), lalu tiriskan dan potong kecil-kecil.",
+            "Panaskan minyak kelapa, kemudian tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan hati ayam, wortel, daun salam, dan daun jeruk. Tumis selama 2–3 menit.",
+            "Tambahkan nasi, bone broth, dan air matang. Masak dengan api kecil hingga wortel benar-benar lunak dan kuah sedikit menyusut.",
+            "Masukkan tahu yang telah dipotong kecil, lalu masak kembali selama 3–5 menit hingga tahu lembut.",
+            "Angkat, buang daun salam dan daun jeruk.",
+            "Haluskan menggunakan saringan kawat halus sambil ditekan dengan sendok hingga diperoleh tekstur bubur yang halus."
+          ],
+          "nutrition": {
+            "energy": "323 kkal",
+            "protein": "20,8 g",
+            "fat": "18,6 g"
+          }
+        },
+        {
+          "id": "6-8-bubur-ayam-brokoli",
+          "title": "Bubur Ayam Brokoli",
+          "servings": 1,
+          "ingredients": [
+            "Ayam 40 gr",
+            "Brokoli 15 gr",
+            "Nasi 40 gr",
+            "Santan 20 mL",
+            "Bawang merah putih 1 siung",
+            "Minyak kelapa 1 sdm"
+          ],
+          "instructions": [
+            "Cuci ayam dan brokoli hingga bersih. Potong brokoli menjadi ukuran kecil.",
+            "Rebus ayam hingga matang, kemudian cincang halus.",
+            "Kukus atau rebus brokoli hingga lunak.",
+            "Tumis bawang merah dan bawang putih dengan minyak kelapa hingga harum.",
+            "Masukkan ayam cincang, brokoli, nasi, santan, dan sedikit air.",
+            "Masak sambil diaduk hingga seluruh bahan menyatu dan menjadi bubur.",
+            "Angkat dan biarkan sedikit hangat.",
+            "Saring hingga tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "284 kkal",
+            "protein": "16,7 g",
+            "fat": "18 g"
+          }
+        },
+        {
+          "id": "6-8-creamy-pumpkin-chicken",
+          "title": "Creamy Pumpkin with Chicken",
+          "servings": 1,
+          "ingredients": [
+            "Daging ayam 30 gr",
+            "Brokoli 15 gr",
+            "Labu kuning 60 gr",
+            "Bawang bombay 10 gr",
+            "Kaldu ceker 30 mL",
+            "Minyak kelapa 1 sdm"
+          ],
+          "instructions": [
+            "Kupas labu kuning lalu potong dadu kecil.",
+            "Potong brokoli kecil-kecil dan iris bawang bombay.",
+            "Rebus ayam hingga matang lalu cincang.",
+            "Kukus labu kuning dan brokoli hingga sangat empuk.",
+            "Tumis bawang bombay hingga harum.",
+            "Masukkan ayam cincang dan kaldu ceker.",
+            "Tambahkan labu kuning serta brokoli, kemudian masak selama beberapa menit.",
+            "Haluskan dengan saringan atau blender hingga lembut."
+          ],
+          "nutrition": {
+            "energy": "205 kkal",
+            "protein": "11,5 g",
+            "fat": "15,2 g"
+          }
+        },
+        {
+          "id": "6-8-creamy-mashed-potato-corn-lele",
+          "title": "Creamy Mashed Potato and Corn with Lele",
+          "servings": 1,
+          "ingredients": [
+            "Daging lele fillet 30 gr",
+            "Wortel 10 gr",
+            "Kaldu ceker 30 mL",
+            "Bawang bombay 10 gr",
+            "Kentang 60 gr",
+            "Jagung 20 gr"
+          ],
+          "instructions": [
+            "Kupas kentang dan wortel, kemudian potong kecil-kecil.",
+            "Cuci jagung pipil.",
+            "Kukus kentang, wortel, dan jagung hingga lunak.",
+            "Kukus fillet lele hingga matang.",
+            "Tumis bawang bombay hingga harum.",
+            "Campurkan seluruh bahan dengan kaldu ceker.",
+            "Blender hingga halus atau saring menggunakan saringan kawat sampai teksturnya lembut."
+          ],
+          "nutrition": {
+            "energy": "190 kkal",
+            "protein": "11 g",
+            "fat": "5 g"
+          }
+        },
+        {
+          "id": "6-8-bubur-teri-nasi",
+          "title": "Bubur Teri Nasi",
+          "servings": 1,
+          "ingredients": [
+            "Nasi 60 gr",
+            "Teri nasi basah 45 gr",
+            "Wortel 10 gr",
+            "Bawang putih 1 buah",
+            "Bone broth (kaldu ayam) 50 mL",
+            "Santan 50 mL"
+          ],
+          "instructions": [
+            "Cuci teri nasi hingga bersih, kemudian rebus sebentar agar lebih lunak.",
+            "Kupas wortel lalu parut.",
+            "Tumis bawang putih hingga harum.",
+            "Masukkan teri nasi dan wortel.",
+            "Tambahkan nasi, bone broth, dan santan.",
+            "Masak hingga menjadi bubur yang kental.",
+            "Blender hingga halus atau saring hingga memperoleh tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "280 kkal",
+            "protein": "18,8 g",
+            "fat": "11,5 g"
+          }
+        },
+        {
+          "id": "6-8-bubur-jagung",
+          "title": "Bubur Jagung",
+          "servings": 1,
+          "ingredients": [
+            "Nasi 40 gr",
+            "Jagung 40 gr",
+            "Bone broth (kaldu ayam) 30 mL",
+            "Ayam paha 25 gr",
+            "Daun bawang",
+            "Air matang 150 mL"
+          ],
+          "instructions": [
+            "Rebus ayam hingga matang lalu cincang halus.",
+            "Rebus jagung hingga lunak.",
+            "Masukkan nasi, jagung, ayam, bone broth, dan air ke dalam panci.",
+            "Masak hingga menjadi bubur.",
+            "Tambahkan daun bawang yang telah diiris halus.",
+            "Blender hingga lembut atau disaring menggunakan saringan halus."
+          ],
+          "nutrition": {
+            "energy": "142 kkal",
+            "protein": "8,5 g",
+            "fat": "3 g"
+          }
+        },
+        {
+          "id": "6-8-bubur-ayam-sayur",
+          "title": "Bubur Ayam Sayur",
+          "servings": 1,
+          "ingredients": [
+            "Kentang 60 gr",
+            "Wortel 30 gr",
+            "Tahu 20 gr",
+            "Daun bawang",
+            "Dada ayam 45 gr",
+            "Bone broth 30 mL",
+            "Air matang 250 mL"
+          ],
+          "instructions": [
+            "Kupas kentang dan wortel, kemudian potong kecil-kecil.",
+            "Rebus ayam hingga matang lalu cincang.",
+            "Kukus kentang dan wortel hingga lunak.",
+            "Masukkan kentang, wortel, tahu, ayam, bone broth, dan air ke dalam panci.",
+            "Masak hingga seluruh bahan sangat lunak.",
+            "Tambahkan daun bawang menjelang matang.",
+            "Blender hingga halus atau disaring hingga tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "220 kkal",
+            "protein": "18 g",
+            "fat": "4 g"
+          }
+        },
+        {
+          "id": "6-8-creamy-pumpkin-potato-chicken",
+          "title": "Creamy Pumpkin & Potato with Chicken",
+          "servings": 1,
+          "ingredients": [
+            "Labu kuning 20 gr",
+            "Kentang 20 gr",
+            "Brokoli 10 gr",
+            "Bawang bombay 10 gr",
+            "Daging ayam 40 gr",
+            "Kaldu ceker 30 mL"
+          ],
+          "instructions": [
+            "Kukus labu kuning, kentang, dan brokoli hingga empuk.",
+            "Rebus ayam hingga matang.",
+            "Tumis bawang bombay hingga harum.",
+            "Campurkan ayam, sayuran, dan kaldu ceker.",
+            "Masak selama 5–10 menit.",
+            "Blender hingga halus atau disaring hingga lembut sebelum disajikan."
+          ],
+          "nutrition": {
+            "energy": "170 kkal",
+            "protein": "13,7 g",
+            "fat": "3 g"
+          }
+        },
+        {
+          "id": "6-8-bubur-telur-tahu-buncis",
+          "title": "Bubur Telur Tahu Buncis",
+          "servings": 1,
+          "ingredients": [
+            "Tahu 10 gr",
+            "Telur ayam 50 gr",
+            "Buncis 10 gr",
+            "Bawang merah 1 buah",
+            "Daging ayam 20 gr",
+            "Nasi 30 gr"
+          ],
+          "instructions": [
+            "Rebus telur hingga matang, kupas kulitnya.",
+            "Rebus buncis hingga sangat lunak.",
+            "Rebus ayam hingga matang lalu cincang.",
+            "Tumis bawang merah hingga harum.",
+            "Masukkan ayam, tahu, buncis, telur, dan nasi.",
+            "Tambahkan sedikit air lalu masak hingga menjadi bubur.",
+            "Blender atau disaring menggunakan saringan halus hingga tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "193 kkal",
+            "protein": "16,8 g",
+            "fat": "8,5 g"
+          }
+        },
+        {
+          "id": "6-8-lele-kabocha-squash",
+          "title": "Lele Kabocha Squash",
+          "servings": 1,
+          "ingredients": [
+            "Daging lele fillet 40 gr",
+            "Bayam 6 helai",
+            "Minyak kelapa 1 sdm",
+            "Air matang 150 mL",
+            "Bawang putih 1 buah",
+            "Nasi 20 gr",
+            "Labu kuning 30 gr"
+          ],
+          "instructions": [
+            "Kukus lele hingga matang.",
+            "Kukus labu kuning dan bayam hingga lunak.",
+            "Tumis bawang putih menggunakan minyak kelapa hingga harum.",
+            "Masukkan nasi, labu kuning, bayam, lele, dan air.",
+            "Masak hingga menjadi bubur.",
+            "Blender hingga halus atau disaring hingga memperoleh tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "237 kkal",
+            "protein": "15 g",
+            "fat": "14,1 g"
+          }
+        },
+        {
+          "id": "6-8-opor-ayam-telur-puyuh",
+          "title": "Opor Ayam Telur Puyuh",
+          "servings": 1,
+          "ingredients": [
+            "Nasi 60 gr",
+            "Kaldu ceker 60 mL",
+            "Santan 30 mL",
+            "Wortel 10 gr",
+            "Telur puyuh 2 butir",
+            "Tempe 10 gr",
+            "Daging ayam 40 gr",
+            "Jahe seiris",
+            "Daun salam 1 helai",
+            "Serai",
+            "Daun jeruk 1 helai",
+            "Bawang bombay 10 gr"
+          ],
+          "instructions": [
+            "Rebus ayam dan telur puyuh hingga matang.",
+            "Kukus wortel hingga lunak.",
+            "Tumis bawang bombay bersama jahe, serai, daun salam, dan daun jeruk hingga harum.",
+            "Masukkan ayam, tempe, dan wortel.",
+            "Tambahkan kaldu ceker, santan, dan nasi.",
+            "Masak hingga seluruh bahan menjadi lunak.",
+            "Buang serai, daun salam, dan daun jeruk.",
+            "Masukkan telur puyuh.",
+            "Blender seluruh bahan hingga halus atau disaring menggunakan saringan kawat halus hingga tekstur lembut."
+          ],
+          "nutrition": {
+            "energy": "314 kkal",
+            "protein": "20,6 g",
+            "fat": "15,8 g"
+          }
+        }
+      ]
+    },
+    {
+      "ageGroup": "9-11-bulan",
+      "label": "9-11 BULAN",
+      "recipes": [
+        {
+          "id": "9-11-nasi-tim-ayam-wortel-bayam",
+          "title": "Nasi Tim Ayam Wortel Bayam",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi putih",
+            "45 gr (4 sdm) dada ayam suir",
+            "30 gr (3 sdm) wortel, parut/cincang",
+            "20 gr (2 sdm) bayam, iris halus",
+            "7,5 ml (1,5 sdt) minyak sawit",
+            "250 ml kaldu ayam"
+          ],
+          "instructions": [
+            "Masak kaldu, nasi, minyak, dada ayam suir hingga lunak dan menjadi bubur.",
+            "Masukkan wortel, masak hingga empuk.",
+            "Masukkan bayam, aduk hingga layu dan matang.",
+            "Angkat dan sajikan."
+          ],
+          "fruit": "1 pisang",
+          "nutrition": {
+            "energy": "153 kkal",
+            "protein": "7,4 gr",
+            "fat": "3,6 gr"
+          }
+        },
+        {
+          "id": "9-11-nasi-tim-ayam-lele-cincang",
+          "title": "Nasi Tim Ayam Lele Cincang",
+          "servings": 3,
+          "ingredients": [
+            "100 gr (10 sdm) nasi putih",
+            "30 gr (3 sdm) daging ayam cincang",
+            "10 gr (1 sdm) daging ikan lele",
+            "10 gr (1 sdm) wortel",
+            "5 ml (1 sdt) minyak goreng",
+            "10 ml (1 sdm) santan kental",
+            "1.5 sdm bawang bombay (iris halus)",
+            "200 ml kaldu ayam"
+          ],
+          "instructions": [
+            "Masukkan nasi, daging ayam cincang, ikan lele, bawang bombay, minyak dan santan ke dalam mangkok tim.",
+            "Tambahkan air kaldu.",
+            "Masukkan wortel, masak hingga lunak dan matang.",
+            "Angkat dan sajikan."
+          ],
+          "fruit": "180 gr (1 potong besar) semangka",
+          "nutrition": {
+            "energy": "125 kkal",
+            "protein": "4,5 gr",
+            "fat": "4,9 gr"
+          }
+        },
+        {
+          "id": "9-11-mie-kukus-telur-puyuh",
+          "title": "Mie Kukus Telur Puyuh",
+          "servings": 3,
+          "ingredients": [
+            "85 gr (3 bungkus) mie keriting",
+            "60 gr (6 butir) telur puyuh",
+            "50 gr (5 sdm) wortel parut",
+            "50 gr (5 sdm) keju parut",
+            "10 gr (1 batang) bawang daun iris",
+            "Minyak untuk menggoreng",
+            "2 siung bawang putih, haluskan",
+            "1 siung bawang merah, haluskan",
+            "300 ml air"
+          ],
+          "instructions": [
+            "Rebus mie keriting hingga matang, tiriskan, lalu potong-potong agar mudah dimakan.",
+            "Panaskan sedikit minyak, tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan wortel parut dan bawang daun, tumis sebentar hingga layu.",
+            "Tambahkan mie dan keju parut, aduk hingga tercampur rata.",
+            "Masukkan adonan mi ke dalam cetakan atau mangkuk tahan panas yang telah diolesi sedikit minyak.",
+            "Letakkan telur puyuh rebus di atas adonan.",
+            "Kukus selama ±15 menit hingga semua bahan menyatu dan matang.",
+            "Sajikan."
+          ],
+          "fruit": "150 gr (6 potong kecil) pepaya",
+          "nutrition": {
+            "energy": "135 kkal",
+            "protein": "5,1 gr",
+            "fat": "7,6 gr"
+          }
+        },
+        {
+          "id": "9-11-nasi-tim-ikan-telur-sayuran",
+          "title": "Nasi Tim Ikan Telur Sayuran",
+          "servings": 3,
+          "ingredients": [
+            "100 gr (10 sdm) nasi putih",
+            "30 gr (3 butir) telur puyuh, kocok",
+            "30 gr (3 sdm) ikan kembung fillet",
+            "10 gr (1 sdm) sawi hijau, iris",
+            "20 gr (2 sdm) tomat, cincang",
+            "300 ml air",
+            "7.5 ml (1.5 sdt) minyak"
+          ],
+          "instructions": [
+            "Masak air, nasi, minyak, dan ikan kembung hingga lunak dan menjadi bubur.",
+            "Masukkan sawi hijau dan tomat.",
+            "Masukkan telur puyuh yang sudah dikocok, aduk perlahan hingga rata dan matang.",
+            "Angkat dan sajikan."
+          ],
+          "fruit": "180 gram semangka",
+          "nutrition": {
+            "energy": "117 kkal",
+            "protein": "4,8 gr",
+            "fat": "4,5 gr"
+          }
+        },
+        {
+          "id": "9-11-tim-kentang-telur",
+          "title": "Tim Kentang Telur",
+          "servings": 3,
+          "ingredients": [
+            "150 gram kentang rebus, haluskan",
+            "50 gram daging ayam cincang, rebus",
+            "1 ½ sdm wortel parut",
+            "1 butir telur, kocok lepas",
+            "10 gram margarin",
+            "Garam secukupnya"
+          ],
+          "instructions": [
+            "Campur semua bahan, aduk rata.",
+            "Tambahkan air hingga adonan tenggelam dalam air, lalu masukkan ke dalam wadah tahan panas.",
+            "Kukus hingga matang."
+          ],
+          "fruit": "1 jeruk",
+          "nutrition": {
+            "energy": "130 kkal",
+            "protein": "5,8 gr",
+            "fat": "6,4 gr"
+          }
+        },
+        {
+          "id": "9-11-bubur-ikan-nila-labu-kuning",
+          "title": "Bubur Ikan Nila Labu Kuning",
+          "servings": 3,
+          "ingredients": [
+            "40 gr (4 sdm) beras",
+            "30 gr (3 sdm) ikan nila fillet, cincang",
+            "30 gr (3 sdm) labu kuning, potong dadu",
+            "5 gr (1 sdt) minyak kelapa",
+            "250 ml air"
+          ],
+          "instructions": [
+            "Masak beras hingga menjadi bubur.",
+            "Masukkan ikan nila, masak hingga matang.",
+            "Masukkan labu kuning, masak hingga empuk.",
+            "Angkat, haluskan/saring sesuai tekstur."
+          ],
+          "fruit": "1 pisang",
+          "nutrition": {
+            "energy": "125 kkal",
+            "protein": "6 gr",
+            "fat": "3 gr"
+          }
+        },
+        {
+          "id": "9-11-telur-dadar-tahu-wortel",
+          "title": "Telur Dadar Tahu Wortel",
+          "servings": 3,
+          "ingredients": [
+            "1 butir telur ayam",
+            "20 gr (2 sdm) tahu, cincang halus",
+            "20 gr (2 sdm) wortel, parut",
+            "5 ml (1 sdt) minyak, untuk menumis"
+          ],
+          "instructions": [
+            "Kocok telur, campur dengan tahu dan wortel parut.",
+            "Dadar tipis di wajan dengan sedikit minyak hingga matang.",
+            "Potong kecil sesuai kemampuan kunyah bayi."
+          ],
+          "fruit": "150 gr (6 potong kecil) pepaya",
+          "nutrition": {
+            "energy": "125 kkal",
+            "protein": "6 gr",
+            "fat": "3 gr"
+          }
+        },
+        {
+          "id": "9-11-bubur-kacang-hijau-santan-telur",
+          "title": "Bubur Kacang Hijau Santan Telur",
+          "servings": 3,
+          "ingredients": [
+            "40 gr kacang hijau, rendam",
+            "1 butir telur",
+            "20 ml santan encer",
+            "200 ml air"
+          ],
+          "instructions": [
+            "Rebus kacang hijau hingga empuk dan agak hancur.",
+            "Masukkan telur kocok, aduk hingga matang.",
+            "Tambahkan santan encer, masak sebentar, angkat."
+          ],
+          "nutrition": {
+            "energy": "150 kkal",
+            "protein": "7,5 gr",
+            "fat": "5 gr"
+          }
+        },
+        {
+          "id": "9-11-bubur-sumsum-santan-pisang",
+          "title": "Bubur Sumsum Santan Pisang",
+          "servings": 3,
+          "ingredients": [
+            "30 gr (3 sdm) tepung beras",
+            "200 ml santan encer",
+            "½ buah pisang matang",
+            "Sedikit gula merah (opsional)"
+          ],
+          "instructions": [
+            "Larutkan tepung beras dengan santan encer.",
+            "Masak sambil terus diaduk hingga mengental dan matang.",
+            "Tuang ke mangkuk, sajikan dengan pisang di atasnya."
+          ],
+          "nutrition": {
+            "energy": "110 kkal",
+            "protein": "2 gr",
+            "fat": "4 gr"
+          }
+        },
+        {
+          "id": "9-11-bola-bola-nasi-tahu-kukus",
+          "title": "Bola-bola Nasi Tahu Kukus",
+          "servings": 3,
+          "ingredients": [
+            "60 gr (6 sdm) nasi",
+            "20 gr (2 sdm) tahu, haluskan",
+            "10 gr (1 sdm) wortel, parut halus",
+            "Sedikit tepung tapioka, sebagai perekat"
+          ],
+          "instructions": [
+            "Campurkan nasi, tahu, wortel, tapioka hingga bisa dibentuk.",
+            "Bentuk bola-bola kecil.",
+            "Kukus 15 menit hingga matang."
+          ],
+          "fruit": "1 buah pisang",
+          "nutrition": {
+            "energy": "130 kkal",
+            "protein": "5 gr",
+            "fat": "2,5 gr"
+          }
+        },
+        {
+          "id": "9-11-bubur-ayam-jagung-manis-wortel",
+          "title": "Bubur Ayam Jagung Manis Wortel",
+          "servings": 3,
+          "ingredients": [
+            "40 gr (4 sdm) beras",
+            "30 gr (3 sdm) ayam cincang halus",
+            "20 gr (2 sdm) jagung manis pipil, haluskan",
+            "15 gr (1,5 sdm) wortel, cincang",
+            "5 gr (1 sdt) minyak kelapa",
+            "250 ml kaldu ayam"
+          ],
+          "instructions": [
+            "Masak beras dengan kaldu hingga menjadi bubur.",
+            "Masukkan ayam cincang, masak sampai matang.",
+            "Masukkan jagung dan wortel, masak hingga empuk.",
+            "Angkat, haluskan sesuai tekstur."
+          ],
+          "fruit": "1 buah jeruk",
+          "nutrition": {
+            "energy": "140 kkal",
+            "protein": "7 gr",
+            "fat": "3,8 gr"
+          }
+        }
+      ]
+    },
+    {
+      "ageGroup": "12-23-bulan",
+      "label": "12-23 BULAN",
+      "recipes": [
+        {
+          "id": "12-23-nasi-sup-telur-puyuh-bola-tahu-ayam",
+          "title": "Nasi Sup Telur Puyuh Bola Tahu Ayam",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi putih",
+            "45 gr (1 potong kecil) tahu putih",
+            "60 gr (± 5 sdm) daging ayam cincang",
+            "60 gr (6 butir) telur puyuh rebus",
+            "30 gr (3 sdm) wortel",
+            "30 gr (3 sdm) jagung pipil kuning",
+            "30 gr (3 sdm) brokoli",
+            "Air secukupnya",
+            "10 gr (1 batang) seledri, diiris",
+            "10 gr (1 batang) daun bawang, diiris",
+            "15 gr (± 1.5 sdm) tepung tapioka",
+            "Garam secukupnya",
+            "Gula secukupnya",
+            "Merica secukupnya",
+            "10 gr (1 sdm) bawang goreng"
+          ],
+          "instructions": [
+            "Rebus air sampai mendidih. Sambil menunggu, campurkan tahu, daging ayam cincang, bumbu halus, garam, gula, dan merica, haluskan, tambahkan tapioka, uleni hingga tercampur rata dan bisa dibentuk.",
+            "Ambil adonan sebanyak satu sendok teh, bentuk bulat, langsung masukkan ke air mendidih.",
+            "Lakukan sampai adonan habis. Setelah bola-bola tahu ayam mengapung, masukkan wortel dan jagung, tunggu sejenak, kemudian brokoli dan telur puyuh rebus.",
+            "Masukkan garam, gula, dan merica serta irisan bawang daun dan seledri. Setelah sayuran matang, koreksi rasa. Sajikan dengan nasi dan taburan bawang goreng."
+          ],
+          "fruit": "135 gr (3 potong) melon",
+          "nutrition": {
+            "energy": "260 kkal",
+            "protein": "10.4 gr",
+            "fat": "10.7 gr"
+          }
+        },
+        {
+          "id": "12-23-nasi-soto-ayam-kuah-kuning",
+          "title": "Nasi Soto Ayam Kuah Kuning",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi",
+            "100 gr (2 potong ayam dengan tulang)",
+            "10 gr (1 sdm) soun",
+            "60 gr (6 butir) telur puyuh",
+            "30 gr (3 sdm) toge",
+            "10 gr (1 sdm) minyak goreng",
+            "Bumbu halus: 1 butir kemiri, 1 siung bawang merah, 1 siung bawang putih, 1/2 cm jahe, 1/2 cm kunyit, 1/4 sdt jinten, 1/2 sdt ketumbar",
+            "Pelengkap: 1/2 sdt irisan daun bawang, 1/2 sdt irisan seledri, 1/3 sdt irisan bawang goreng"
+          ],
+          "instructions": [
+            "Rebus ayam hingga setengah matang, tambahkan serai geprek, daun salam, daun jeruk, dan lengkuas yang digeprek.",
+            "Tumis bumbu yang dihaluskan hingga harum dan matang, lalu masukkan ke dalam rebusan ayam.",
+            "Tambahkan garam, gula, dan merica. Masak hingga ayam matang dan empuk, koreksi rasa.",
+            "Daging ayam diangkat dan disuir-suir.",
+            "Siapkan mangkuk, beri soun yang sudah direndam, toge, suiran ayam, serta telur puyuh rebus.",
+            "Tambahkan kuah soto ayam, taburkan daun bawang, seledri, dan bawang goreng.",
+            "Sajikan dengan nasi hangat dan lengkapi dengan buah."
+          ],
+          "nutrition": {
+            "energy": "263 kkal",
+            "protein": "9.5 gr",
+            "fat": "10.9 gr"
+          }
+        },
+        {
+          "id": "12-23-sup-telur-puyuh-ikan-air-tawar-labu-kuning",
+          "title": "Sup Telur Puyuh Ikan Air Tawar Labu Kuning",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi putih",
+            "70 gr (7 sdm) kentang, potong dadu",
+            "50 gr (5 sdm) labu kuning, potong dadu",
+            "120 gr (12 sdm) ikan nila kukus, disuwir",
+            "60 gr (6 butir) telur puyuh, rebus",
+            "15 gr (3 sdt) kacang merah",
+            "45 gr (4.5 sdm) tomat, potong dadu",
+            "10 gr (1 batang) daun bawang",
+            "5 gr (1 sdt) bawang merah goreng",
+            "5 gr (1 sdt) bawang putih goreng",
+            "150 ml kaldu ayam",
+            "Garam, gula, merica secukupnya"
+          ],
+          "instructions": [
+            "Rebus kaldu ayam hingga mendidih, masukkan kentang, kacang merah, dan labu kuning hingga setengah matang.",
+            "Masukkan suwiran ikan nila kukus, bawang merah goreng dan bawang putih goreng, masak hingga matang.",
+            "Tambahkan tomat, bawang daun, bawang goreng, dan telur puyuh, aduk perlahan.",
+            "Tambahkan garam, gula, dan merica secukupnya, aduk rata. Angkat dan sajikan dengan buah."
+          ],
+          "fruit": "150 gr (6 potong) pepaya",
+          "nutrition": {
+            "energy": "261 kkal",
+            "protein": "13.6 gr",
+            "fat": "9.1 gr"
+          }
+        },
+        {
+          "id": "12-23-nasi-ikan-kuah-kuning",
+          "title": "Nasi Ikan Kuah Kuning",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi",
+            "360 gr (3 ekor) ikan kembung",
+            "75 gr (7.5 sdm) labu siam",
+            "75 gr (7.5 sdm) tempe",
+            "60 gr (1 buah besar) tomat besar",
+            "15 ml (1.5 sdm) minyak goreng",
+            "2 lembar daun salam, 1 batang sereh digeprek, 2 cm laos digeprek",
+            "Garam dan gula secukupnya",
+            "35 ml (3.5 sdm) santan",
+            "750 ml air",
+            "2 buah jeruk nipis",
+            "Bumbu halus: 5 siung bawang merah, 3 siung bawang putih, 3 buah kemiri, 2 cm jahe, 2 cm kunyit"
+          ],
+          "instructions": [
+            "Bersihkan ikan, lumuri dengan garam dan jeruk nipis atau cuka, biarkan 10 menit, bilas bersih.",
+            "Lumuri kembali ikan kembung dengan garam dan jeruk nipis, biarkan 5 menit.",
+            "Panaskan minyak, goreng ikan kembung sampai matang, sisihkan.",
+            "Tumis bumbu halus, tambahkan sereh, salam, dan laos, tunggu sampai air mendidih.",
+            "Masukkan potongan labu siam dan tempe, masak sampai matang.",
+            "Tambahkan santan dan masukkan ikan goreng.",
+            "Tambahkan garam dan gula secukupnya, masukkan tomat, koreksi rasa. Sajikan dengan nasi hangat."
+          ],
+          "fruit": "270 gr semangka",
+          "nutrition": {
+            "energy": "267 kkal",
+            "protein": "28.5 gr",
+            "fat": "10.7 gr"
+          }
+        },
+        {
+          "id": "12-23-nugget-tempe-ayam-sayuran",
+          "title": "Nugget Tempe Ayam Sayuran",
+          "servings": 3,
+          "ingredients": [
+            "200 gr tempe dipotong kotak kecil, kukus",
+            "100 gr daging ayam cincang, haluskan",
+            "100 gr (2 butir) telur ayam, kocok",
+            "50 gr (5 sdm) wortel",
+            "50 gr (5 sdm) keju parut",
+            "10 gr (1 batang) bawang daun, iris halus",
+            "10 gr (1 sdm) bawang goreng halus",
+            "10 gr (1 sdm) bawang putih halus",
+            "20 gr (2 sdm) tepung terigu",
+            "20 gr (2 sdm) tepung tapioka",
+            "Pelapis: 30 gr (3 sdm) tepung terigu, 100 ml air, 100 gr (10 sdm) tepung panir",
+            "Minyak untuk menggoreng secukupnya"
+          ],
+          "instructions": [
+            "Campurkan tempe, daging ayam cincang, wortel, keju, bawang daun, tepung terigu, tapioka, telur, bawang goreng, dan bawang putih halus. Aduk rata.",
+            "Olesi loyang dengan minyak, masukkan adonan nugget dan ratakan. Kukus 30 menit atau sampai matang. Setelah dingin, potong sesuai ukuran.",
+            "Cairkan terigu dengan air hingga cukup kental. Celupkan nugget ke tepung terigu basah, gulirkan pada tepung panir.",
+            "Simpan di kulkas 30 menit atau langsung goreng di minyak panas. Sajikan selagi hangat."
+          ],
+          "fruit": "270 gr buah semangka",
+          "nutrition": {
+            "energy": "191 kkal",
+            "protein": "10.5 gr",
+            "fat": "9.0 gr"
+          }
+        },
+        {
+          "id": "12-23-nasi-sup-ayam-telur-puyuh-sayur",
+          "title": "Nasi Sup Ayam Telur Puyuh Sayur",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi putih",
+            "75 gram ayam cincang",
+            "60 gr (6 butir) telur puyuh, rebus",
+            "60 gram (2 potong kecil) tahu putih",
+            "45 gram (6 sdm) wortel cincang",
+            "60 gram (1 buah kecil) kentang",
+            "Daun bawang secukupnya",
+            "Bumbu: 3 siung kecil bawang putih, 4 siung kecil bawang merah, 1 lembar daun salam, 1 sdm minyak goreng",
+            "300 ml (1½ gelas) kaldu ayam"
+          ],
+          "instructions": [
+            "Haluskan bawang merah dan bawang putih.",
+            "Tumis bumbu menggunakan minyak hingga harum.",
+            "Masukkan ayam cincang, masak hingga berubah warna.",
+            "Tambahkan air kaldu, kentang, dan wortel.",
+            "Masukkan tahu dan telur puyuh.",
+            "Masak sampai semua bahan lunak.",
+            "Sajikan bersama nasi dan potongan melon."
+          ],
+          "fruit": "150 gram (9 potong kecil) melon",
+          "nutrition": {
+            "energy": "260 kkal",
+            "protein": "12 gram",
+            "fat": "9 gram"
+          }
+        },
+        {
+          "id": "12-23-nasi-tim-ayam-telur-brokoli-keju",
+          "title": "Nasi Tim Ayam Telur Brokoli Keju",
+          "servings": 3,
+          "ingredients": [
+            "50 gram (5 sdm) beras",
+            "90 gram (7 sdm penuh) ayam cincang",
+            "100 gram (2 butir) telur ayam",
+            "60 gram (6 kuntum kecil) brokoli",
+            "45 gram (4½ sdm) jagung manis",
+            "30 gram (3 sdm) keju parut",
+            "Bumbu: 3 siung bawang putih, 6 iris bawang bombai, 1 sdt minyak goreng, sejumput lada"
+          ],
+          "instructions": [
+            "Masak beras hingga menjadi nasi tim.",
+            "Tumis bawang putih dan bawang bombai.",
+            "Masukkan ayam cincang hingga matang.",
+            "Tambahkan telur dan sayuran.",
+            "Campurkan dengan nasi tim.",
+            "Tambahkan keju parut.",
+            "Sajikan dengan pepaya."
+          ],
+          "fruit": "180 gram (120 potong kecil) pepaya",
+          "nutrition": {
+            "energy": "300 kkal",
+            "protein": "16 gram",
+            "fat": "12 gram"
+          }
+        },
+        {
+          "id": "12-23-nasi-telur-orak-arik-tahu-sayur",
+          "title": "Nasi Telur Orak-Arik Tahu Sayur",
+          "servings": 3,
+          "ingredients": [
+            "150 gram (15 sdm) nasi",
+            "150 gram (3 butir) telur ayam",
+            "120 gram (4 potong kecil) tahu putih",
+            "60 gram (1 gelas setelah dimasak) bayam",
+            "45 gram (5 sdm) wortel cincang",
+            "Bumbu: 3 siung kecil bawang putih, 4 siung kecil bawang merah, 4 sdm daun bawang iris, 1 sdt minyak goreng, sejumput lada"
+          ],
+          "instructions": [
+            "Cuci bayam dan wortel, kemudian potong kecil.",
+            "Hancurkan tahu menggunakan garpu.",
+            "Tumis bawang merah dan bawang putih dengan minyak hingga harum.",
+            "Masukkan tahu dan wortel, masak hingga lunak.",
+            "Tambahkan telur, aduk hingga matang.",
+            "Masukkan bayam terakhir agar tetap memiliki tekstur.",
+            "Sajikan bersama nasi dan semangka."
+          ],
+          "fruit": "210 gram (12 potong kecil) semangka",
+          "nutrition": {
+            "energy": "280 gram",
+            "protein": "14 gram",
+            "fat": "12 gram"
+          }
+        },
+        {
+          "id": "12-23-nasi-ayam-kecap-sayur",
+          "title": "Nasi Ayam Kecap Sayur",
+          "servings": 3,
+          "ingredients": [
+            "150 gr (15 sdm) nasi putih",
+            "120 gram (9 sdm) ayam cincang",
+            "50 gram (1 butir) telur ayam",
+            "45 gram (5 sdm) wortel cincang",
+            "45 gram (7 batang kecil) kacang panjang",
+            "Bumbu: 3 siung bawang putih, 4 siung bawang merah, 3 sdt kecap manis, 1 lembar daun salam, 1 sdm minyak goreng, 1/2 gelas air"
+          ],
+          "instructions": [
+            "Tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan ayam, masak sampai matang.",
+            "Tambahkan kecap dan sedikit air.",
+            "Masukkan telur dan sayuran.",
+            "Masak sampai tekstur lunak.",
+            "Sajikan bersama nasi dan mangga."
+          ],
+          "fruit": "150 gram (9 potong) mangga",
+          "nutrition": {
+            "energy": "290 kkal",
+            "protein": "15 gram",
+            "fat": "11 gram"
+          }
+        },
+        {
+          "id": "12-23-bubur-kentang-ayam-santan",
+          "title": "Bubur Kentang Ayam Santan",
+          "servings": 3,
+          "ingredients": [
+            "450 gram (1 buah sedang) kentang",
+            "120 gram (9 sdm) ayam cincang",
+            "120 gram (6 potong sedang) tempe",
+            "90 gram (9 sdm) labu cincang",
+            "150 ml (¾ gelas) santan encer",
+            "Bumbu: 3 siung bawang putih, 6 siung bawang merah, 3 lembar daun salam, 3 jumput lada, 3 sdt minyak goreng"
+          ],
+          "instructions": [
+            "Kukus kentang lalu haluskan.",
+            "Tumis bawang merah dan bawang putih.",
+            "Masukkan ayam dan tempe cincang.",
+            "Tambahkan labu siam dan santan.",
+            "Campurkan dengan kentang.",
+            "Sajikan dengan potongan pir."
+          ],
+          "fruit": "150 gram (1½ buah pir)",
+          "nutrition": {
+            "energy": "310 kkal",
+            "protein": "15 gram",
+            "fat": "12 gram"
+          }
+        }
+      ]
+    },
+    {
+      "ageGroup": "2-5-tahun",
+      "label": "2-5 TAHUN",
+      "recipes": [
+        {
+          "id": "2-5-nasi-ayam-goreng-sayur-asem",
+          "title": "Nasi, Ayam Goreng, Sayur Asem, Pisang",
+          "servings": 3,
+          "ingredients": [
+            "300 gr (3 centong) nasi",
+            "150 gr ayam",
+            "30 gr wortel",
+            "30 gr labu siam",
+            "Asam jawa",
+            "Bawang putih",
+            "Garam"
+          ],
+          "instructions": [
+            "Ungkep ayam dengan bumbu bawang dan garam.",
+            "Goreng ayam hingga matang.",
+            "Masak sayur asem dengan wortel dan labu siam."
+          ],
+          "fruit": "pisang",
+          "nutrition": {
+            "energy": "480 kkal",
+            "protein": "24 gr",
+            "fat": "18 gr"
+          }
+        },
+        {
+          "id": "2-5-nasi-lele-bakar-labu-siam",
+          "title": "Nasi Lele Bakar, Labu Siam Kukus, Jeruk",
+          "servings": 3,
+          "ingredients": [
+            "300 gr (3 centong) nasi putih",
+            "200 gr (2 ekor sedang) ikan lele, bersihkan",
+            "2 siung bawang putih, haluskan",
+            "1 cm kunyit, haluskan",
+            "10 ml (1 sdm) kecap manis",
+            "1 buah jeruk nipis (untuk marinasi)",
+            "180 gr labu siam, potong korek api",
+            "1 siung bawang merah & 1 siung bawang putih (untuk tumis)",
+            "garam",
+            "15 ml (1,5 sdm) minyak"
+          ],
+          "instructions": [
+            "Lumuri ikan lele dengan air jeruk nipis, diamkan 10 menit, lalu bilas bersih.",
+            "Baluri lele dengan bawang putih halus, kunyit, dan garam, diamkan sebentar agar bumbu meresap.",
+            "Goreng lele sampai matang tapi tidak kering.",
+            "Bakar/panggang lele hingga matang dan sedikit kecoklatan, sesekali diolesi kecap dan sisa bumbu.",
+            "Tumis bawang merah dan bawang putih hingga harum, masukkan labu siam, masak hingga empuk, beri sedikit garam.",
+            "Kukus labu siam selama 7-10 menit atau sampai empuk.",
+            "Sajikan nasi bersama lele bakar dan kukusan labu siam."
+          ],
+          "fruit": "1 buah jeruk",
+          "nutrition": {
+            "energy": "420 kkal",
+            "protein": "26 gr",
+            "fat": "12 gr"
+          }
+        },
+        {
+          "id": "2-5-nasi-telur-orak-arik-tempe-orek",
+          "title": "Nasi Telur Orak-arik, Tempe Orek, Sayur Bayam, Pepaya",
+          "servings": 3,
+          "ingredients": [
+            "300 gr (3 centong) nasi",
+            "Telur orak-arik: 2 butir telur, 1 sdt minyak goreng",
+            "Tempe orek: 100 g tempe (potong dadu kecil), 2 siung bawang merah iris, 1 siung bawang putih cincang, 1 sdt minyak goreng, 1 sdt kecap manis, 30 ml air, daun salam",
+            "Sayur bayam: 1 ikat kecil bayam (±100 g), 500 ml air, 1 siung bawang putih dan merah iris tipis"
+          ],
+          "instructions": [
+            "Panaskan minyak, masukkan telur yang telah dikocok, lalu orak-arik hingga matang.",
+            "Tumis bawang merah dan bawang putih, masukkan daun salam, masukkan tempe, tambahkan kecap manis dan sedikit air, masak hingga bumbu meresap.",
+            "Didihkan air bersama bawang putih & merah, masukkan bayam, masak 1–2 menit hingga layu.",
+            "Sajikan nasi bersama telur orak-arik, tempe orek, dan sayur bayam."
+          ],
+          "fruit": "pepaya",
+          "nutrition": {
+            "energy": "460 kkal",
+            "protein": "22 gr",
+            "fat": "16 gr"
+          }
+        },
+        {
+          "id": "2-5-nasi-ayam-suwir-capcay",
+          "title": "Nasi Ayam Suwir, Capcay Wortel Buncis, Jeruk",
+          "servings": 3,
+          "ingredients": [
+            "300 gr (3 centong) nasi putih matang",
+            "Ayam suwir: 150 g dada ayam fillet, 2 siung bawang putih, 3 siung bawang merah, 1 sdm minyak goreng, 50 ml air, ¼ sdt garam, ¼ sdt kaldu ayam bubuk (opsional)",
+            "Capcay wortel buncis: 1 buah wortel sedang (±100 g) potong dadu kecil, 100 g buncis iris kecil, 2 siung bawang putih cincang halus, 1 sdm minyak goreng, 75 ml air, ¼ sdt garam, ¼ sdt kaldu ayam bubuk (opsional)"
+          ],
+          "instructions": [
+            "Rebus dada ayam hingga matang, lalu suwir-suwir.",
+            "Panaskan sedikit minyak, tumis bawang putih dan bawang merah yang telah dihaluskan hingga harum. Masukkan ayam suwir, tambahkan sedikit air, bumbui dengan garam dan kaldu ayam. Masak hingga bumbu meresap, angkat.",
+            "Cuci wortel dan buncis, potong kecil-kecil.",
+            "Panaskan sedikit minyak, tumis bawang putih hingga harum. Masukkan wortel dan buncis, tambahkan sedikit air, masak hingga sayuran empuk. Bumbui dengan garam dan kaldu ayam secukupnya.",
+            "Sajikan nasi hangat bersama ayam suwir dan capcay wortel buncis."
+          ],
+          "fruit": "semangka",
+          "nutrition": {
+            "energy": "470 kkal",
+            "protein": "25 gr",
+            "fat": "15 gr"
+          }
+        },
+        {
+          "id": "2-5-nasi-ikan-nila-goreng-tumis-kangkung",
+          "title": "Nasi Ikan Nila Goreng, Tumis Kangkung, Pisang",
+          "servings": 3,
+          "ingredients": [
+            "300 gr (3 centong) nasi putih matang",
+            "Fillet ikan nila 240 g",
+            "Kangkung 1 ikat",
+            "Bawang putih 3 siung",
+            "Bawang merah 3 siung",
+            "Minyak goreng 2 sdm",
+            "Garam ¼ sdt",
+            "Ketumbar bubuk ¼ sdt"
+          ],
+          "instructions": [
+            "Cuci bersih fillet ikan nila, lumuri dengan bawang putih halus, garam, dan ketumbar bubuk. Diamkan 10–15 menit agar bumbu meresap.",
+            "Panaskan minyak, goreng fillet ikan nila hingga matang dan kuning keemasan. Angkat dan tiriskan.",
+            "Petik daun dan batang muda kangkung, cuci hingga bersih.",
+            "Panaskan sedikit minyak, tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan kangkung, tambahkan sedikit air, masak sambil diaduk hingga kangkung layu. Beri sedikit garam, aduk rata, angkat.",
+            "Sajikan nasi hangat bersama fillet ikan nila goreng dan tumis kangkung."
+          ],
+          "fruit": "jeruk",
+          "nutrition": {
+            "energy": "410 kkal",
+            "protein": "26 gr",
+            "fat": "10 gr"
+          }
+        },
+        {
+          "id": "2-5-mie-goreng-wortel-telur-kubis",
+          "title": "Mie Goreng Wortel Telur Kubis",
+          "servings": 3,
+          "ingredients": [
+            "150 gr mie telur",
+            "2 butir telur",
+            "180 gr wortel, iris korek api",
+            "180 gr kubis, iris halus",
+            "Bawang putih",
+            "Kecap manis",
+            "20 ml (2 sdm) minyak"
+          ],
+          "instructions": [
+            "Rebus mie hingga matang, tiriskan.",
+            "Tumis bawang putih, masukkan telur, orak-arik hingga matang.",
+            "Masukkan wortel dan kubis, masak hingga layu.",
+            "Masukkan mie dan kecap manis, aduk rata.",
+            "Sajikan."
+          ],
+          "fruit": "jeruk",
+          "nutrition": {
+            "energy": "450 kkal",
+            "protein": "16 gr",
+            "fat": "15 gr"
+          }
+        },
+        {
+          "id": "2-5-kroket-kentang-isi-ayam-wortel",
+          "title": "Kroket Kentang Isi Ayam dan Wortel",
+          "servings": 3,
+          "ingredients": [
+            "300 gr kentang, kukus, haluskan",
+            "90 gr ayam cincang",
+            "60 gr wortel, cincang halus",
+            "Bawang putih dan bawang merah",
+            "1 butir telur sebagai pelapis",
+            "60 gr tepung panir",
+            "Minyak"
+          ],
+          "instructions": [
+            "Kukus kentang 15–25 menit.",
+            "Haluskan kentang dengan sedikit garam dan minyak.",
+            "Tumis bawang putih dan bawang merah, masukkan ayam dan wortel.",
+            "Ambil adonan kentang, isi dengan tumisan ayam wortel, bentuk menjadi lonjong.",
+            "Celup ke telur kocok, baluri dengan tepung panir.",
+            "Goreng hingga coklat keemasan."
+          ],
+          "fruit": "jeruk",
+          "nutrition": {
+            "energy": "380 kkal",
+            "protein": "16 gr",
+            "fat": "18 gr"
+          }
+        },
+        {
+          "id": "2-5-soun-kuah-pentol-ayam-tahu-sayuran",
+          "title": "Soun Kuah Pentol Ayam Tahu Sayuran",
+          "servings": 3,
+          "ingredients": [
+            "Soun kering 150 g",
+            "Daging ayam giling 150 g",
+            "Tahu putih 100 g",
+            "Wortel 100 g (1 buah sedang), potong dadu kecil",
+            "Sawi hijau 100 g, potong-potong",
+            "Bawang putih 3 siung, haluskan",
+            "Bawang merah 3 siung, iris halus",
+            "Daun bawang 1 batang, iris",
+            "Seledri 1 batang, iris",
+            "Air 900 ml",
+            "Minyak goreng 1 sdm",
+            "Garam ½ sdt",
+            "Merica bubuk ¼ sdt"
+          ],
+          "instructions": [
+            "Rendam soun dalam air hangat selama 5–10 menit hingga lunak, tiriskan.",
+            "Campurkan daging ayam giling, tahu yang telah dihaluskan, 1 siung bawang putih halus, sedikit garam, dan merica. Aduk rata.",
+            "Bentuk adonan menjadi bulatan-bulatan kecil (pentol).",
+            "Didihkan air, rebus pentol hingga mengapung dan matang. Angkat.",
+            "Tumis bawang merah dan sisa bawang putih hingga harum.",
+            "Tambahkan air, masukkan wortel, masak hingga setengah empuk.",
+            "Masukkan pentol ayam tahu, sawi hijau, dan soun. Masak selama 2–3 menit.",
+            "Tambahkan garam, merica, daun bawang, dan seledri. Aduk rata, angkat.",
+            "Sajikan hangat."
+          ],
+          "fruit": "pisang",
+          "nutrition": {
+            "energy": "420 kkal",
+            "protein": "18 gr",
+            "fat": "8 gr"
+          }
+        },
+        {
+          "id": "2-5-mie-ayam",
+          "title": "Mie Ayam",
+          "servings": 3,
+          "ingredients": [
+            "Mie telur segar 300 g",
+            "Dada ayam fillet 200 g, potong dadu kecil",
+            "Sawi hijau 150 g, potong-potong",
+            "Bawang putih 3 siung, cincang halus",
+            "Bawang merah 3 siung, iris halus",
+            "Kecap manis 2 sdm",
+            "Kecap asin 1 sdt",
+            "Minyak goreng 2 sdm",
+            "Garam ½ sdt",
+            "Merica bubuk ¼ sdt",
+            "Air 750 ml",
+            "Daun bawang 1 batang, iris halus"
+          ],
+          "instructions": [
+            "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan potongan ayam, aduk hingga berubah warna.",
+            "Tambahkan kecap manis, kecap asin, garam, merica, dan sedikit air. Masak hingga ayam matang dan bumbu meresap.",
+            "Rebus sawi hijau selama 1–2 menit, tiriskan.",
+            "Rebus mie telur hingga matang, angkat, tiriskan. Tambahkan sedikit minyak agar mie tidak saling menempel.",
+            "Didihkan sisa air sebagai kuah, tambahkan sedikit garam dan merica sesuai selera.",
+            "Tambahkan sawi rebus, beri topping ayam.",
+            "Siram dengan kuah hangat dan taburi irisan daun bawang."
+          ],
+          "fruit": "semangka",
+          "nutrition": {
+            "energy": "470 kkal",
+            "protein": "24 g",
+            "fat": "11 g"
+          }
+        }
+      ]
+    },
+    {
+      "ageGroup": "ibu-hamil",
+      "label": "IBU HAMIL",
+      "recipes": [
+        {
+          "id": "ibu-hamil-nasi-kuning-harum-rampa-ikan-tuna-balado",
+          "title": "Nasi Kuning Harum Rampa Ikan Tuna Balado",
+          "servings": 3,
+          "ingredients": [
+            "Nasi kuning: 170 gr beras, 30 gr beras ketan, 450 ml santan cair, 3 lembar daun salam, 3 lembar daun pandan (disimpulkan), 1 batang sereh digeprek, 2 cm laos digeprek, 1 cm kayu manis, 1 butir biji pala digeprek, 2 buah bunga cengkeh, 5 kuntum bunga pekak, 1 buah kapulaga, 1 sdm garam, 1 sdt merica",
+            "Balado ikan tuna: 120 gr (12 sdm) fillet dada ayam potong kotak, 60 gr (3 potong) tahu potong kotak, 60 gr (6 ekor) udang, 30 gr (3 sdm) daun bayam, 30 gr (3 sdm) wortel, 50 ml (5 sdm) santan kental, 1 lembar daun salam, 1 batang sereh, 2 lembar daun jeruk, 1 cm jahe",
+            "Bumbu halus: 30 gr (3 buah) cabe merah besar (sesuai selera), 3 siung bawang merah, 1 siung bawang putih",
+            "Tumisan jagung: 200 gr (1 buah) jantung pisang rebus, 60 gr daun melinjo, 50 gr ikan teri medan goreng, 50 gr cabe hijau, 50 gr cabe merah, 5 siung bawang merah, 3 siung bawang putih, 3 cm laos, 10 gr (1 batang) sereh, 3 lembar daun salam, garam, gula, kaldu jamur secukupnya, 50 ml (5 sdm) santan, 20 gr (2 sdm) minyak goreng"
+          ],
+          "instructions": [
+            "Cuci beras dan ketan sampai bersih, rendam dalam air selama 15-20 menit, tiriskan.",
+            "Tumis bumbu yang sudah dihaluskan dengan sedikit minyak.",
+            "Tambahkan santan, beras ketan, tumisan bumbu halus, garam, dan semua bumbu rempah, masak dengan api sedang sampai menjadi aron nasi, aduk-aduk, koreksi rasa.",
+            "Kukus aron nasi uduk kurang lebih 30 menit."
+          ],
+          "fruit": "540 gr (3 porsi) semangka",
+          "notes": "Recipe contains chili (cabe); adjust or omit spicy components for young children.",
+          "nutrition": {
+            "energy": "",
+            "protein": "",
+            "fat": ""
+          }
+        },
+        {
+          "id": "ibu-hamil-nasi-rawon",
+          "title": "Nasi Rawon",
+          "servings": 3,
+          "ingredients": [
+            "450 gr (3 centong) nasi",
+            "150 gr (15 sdm) daging sapi",
+            "150 gr (15 sdm) tempe",
+            "90 gr (9 sdm) tauge",
+            "50 gr (3 butir) telur asin",
+            "10 ml (1 sdm) minyak goreng",
+            "3 buah kerupuk udang",
+            "2 liter kaldu daging",
+            "3 batang serai",
+            "3 lembar daun jeruk",
+            "5 lembar daun salam",
+            "2 cm laos",
+            "Bumbu halus: 15 gr (5 siung) bawang merah, 9 gr (3 siung) bawang putih, 10 ml (1 sdm) air asam jawa, 2 cm jahe, 2 cm kunyit, 5 buah kluwek, 10 gr (1 sdm) ketumbar, 10 gr (1 sdm) garam, 10 gr (1 sdm) gula pasir, 10 gr (1 sdm) kaldu jamur"
+          ],
+          "instructions": [
+            "Masak daging bersama daun jeruk, serai, laos, dan daun salam sampai empuk dan matang.",
+            "Angkat daging, potong kecil-kecil. Saring rebusan, didihkan kembali bersama irisan daging.",
+            "Panaskan minyak, tumis bumbu halus sampai harum dan matang. Angkat, masukkan ke dalam rebusan daging.",
+            "Masak dengan api kecil sampai mendidih kembali.",
+            "Sajikan rawon dengan tauge, tempe goreng, telur asin, nasi, dan kerupuk udang."
+          ],
+          "fruit": "300 gr (3 buah) jeruk",
+          "nutrition": {
+            "energy": "698 kkal",
+            "protein": "36 gr",
+            "fat": "27.9 gr"
+          }
+        },
+        {
+          "id": "ibu-hamil-lapis-tamie-isi-ayam",
+          "title": "Lapis Tamie Isi Ayam",
+          "servings": 3,
+          "ingredients": [
+            "20 tahu putih kecil (500 gr), haluskan",
+            "100 gr daging ayam cincang",
+            "100 gr (2 butir) telur ayam",
+            "2 sendok makan tepung tapioka",
+            "2 sendok tepung terigu",
+            "85 gr (1 bungkus) mie kering rebus, haluskan",
+            "50 gr keju parut",
+            "50 gr wortel parut",
+            "1 batang daun bawang, iris halus",
+            "1 batang daun seledri, haluskan",
+            "1 sdm bawang putih goreng halus",
+            "1 sdm bawang goreng halus",
+            "Garam, merica, kaldu jamur secukupnya",
+            "1 sdm saus tiram",
+            "1 sdm minyak wijen",
+            "Bumbu halus: 2 siung bawang merah, 2 siung bawang putih",
+            "Pelapis: 4 sdm tepung terigu, 150 ml air, garam secukupnya, tepung panir 150 gr, minyak goreng 200 ml"
+          ],
+          "instructions": [
+            "Tumis bumbu halus sampai harum, masukkan ayam cincang, masak sampai berubah warna.",
+            "Tambahkan saus tiram, minyak wijen, garam dan merica secukupnya, koreksi rasa, sisihkan.",
+            "Didihkan kurang lebih 1.5 liter air, tambahkan 1 sdm minyak goreng atau mentega.",
+            "Campurkan tahu, mie kering rebus, wortel, keju, tepung terigu, tepung tapioka, garam, merica, kaldu jamur, bawang merah dan bawang putih goreng halus, bawang daun dan seledri iris, uleni sampai tercampur merata.",
+            "Ambil 1.5 sendok makan adonan, pipihkan, isi tumisan ayam cincang. Rapikan dan bentuk bulat lonjong.",
+            "Masukkan ke dalam air mendidih, masak sampai matang atau mengapung.",
+            "Siapkan loyang olesi minyak. Ratakan sebagian adonan, tambahkan isian ayam di atasnya, ratakan kembali, tutup dengan adonan tahu.",
+            "Kukus selama 25 menit atau sampai matang.",
+            "Dinginkan, potong-potong.",
+            "Campurkan tepung terigu, garam, dan air sampai rata. Gulirkan potongan lapis tamie ke larutan tepung, lalu ke tepung panir. Ulangi sampai habis.",
+            "Simpan di kulkas/freezer sebelum digoreng.",
+            "Goreng di minyak panas sampai kuning keemasan. Sajikan hangat, bisa dicocol saus sambal (opsional untuk anak lebih besar)."
+          ],
+          "fruit": "300 gr pepaya",
+          "nutrition": {
+            "energy": "527 kkal",
+            "protein": "25.3 gr",
+            "fat": "22.9 gr"
+          }
+        },
+        {
+          "id": "ibu-hamil-nasi-ayam-kunyit-telur-tahu-wortel",
+          "title": "Nasi Ayam Kunyit Telur Tahu Wortel",
+          "servings": 3,
+          "ingredients": [
+            "270 gr (3 centong) nasi putih matang",
+            "200 gr (2 potong sedang) dada ayam tanpa kulit, potong dadu",
+            "100 gr (2 potong sedang) tahu putih",
+            "150 gr (3 butir) telur ayam rebus",
+            "20 ml (2 sdm) minyak goreng",
+            "150 gram (1 mangkuk kecil) wortel, potong",
+            "100 gram (1 mangkuk kecil) buncis, potong",
+            "Bumbu halus: 20 gr (5 siung) bawang merah, 10 gr (3 siung) bawang putih, 15 gr (3 cm) kunyit, 10 gr (2 cm) jahe, 1 batang serai digeprek, 3 lembar daun salam, 2 lembar daun jeruk, ½ sdt garam, ½ sdt merica"
+          ],
+          "instructions": [
+            "Haluskan bawang merah, bawang putih, kunyit, dan jahe.",
+            "Tumis bumbu dengan minyak hingga harum.",
+            "Masukkan ayam, masak hingga berubah warna.",
+            "Tambahkan tahu, daun salam, serai, dan daun jeruk.",
+            "Masukkan wortel dan buncis. Masak hingga ayam matang dan bumbu meresap.",
+            "Sajikan bersama nasi, telur, dan buah apel."
+          ],
+          "fruit": "450 gram (±3 buah sedang) apel",
+          "nutrition": {
+            "energy": "698 kkal",
+            "protein": "40 gr",
+            "fat": "26 gr"
+          }
+        },
+        {
+          "id": "ibu-hamil-nasi-ayam-lada-hitam-tahu-brokoli",
+          "title": "Nasi Ayam Lada Hitam Tahu Brokoli",
+          "servings": 3,
+          "ingredients": [
+            "450 gr (±5 centong) nasi putih matang",
+            "180 gr (±2 potong sedang) dada ayam tanpa kulit, potong kecil",
+            "100 gr (±2 potong sedang) tahu putih",
+            "50 gr (±½ buah sedang) paprika merah, iris",
+            "20 ml (±2 sdm) minyak goreng",
+            "150 gr (±1 mangkuk sedang) brokoli",
+            "75 gr (±1 buah kecil) wortel",
+            "Bumbu halus: 20 gr (±5 siung) bawang merah, 12 gr (±4 siung) bawang putih, 10 gr (±1 sdm) lada hitam bubuk, 15 ml (±1 sdm) kecap manis, 3 gr (±½ sdt) garam"
+          ],
+          "instructions": [
+            "Tumis bawang merah dan bawang putih menggunakan minyak hingga harum.",
+            "Masukkan ayam, masak hingga matang.",
+            "Tambahkan tahu, paprika, lada hitam, dan kecap.",
+            "Kukus brokoli dan wortel hingga matang.",
+            "Sajikan bersama nasi dan buah jeruk."
+          ],
+          "fruit": "450 gram (±3 buah sedang) jeruk manis",
+          "nutrition": {
+            "energy": "620 kkal",
+            "protein": "36 gram",
+            "fat": "23 gram"
+          }
+        },
+        {
+          "id": "ibu-hamil-sup-ayam-kentang-telur-puyuh",
+          "title": "Sup Ayam Kentang Telur Puyuh",
+          "servings": 3,
+          "ingredients": [
+            "450 gr (±5 centong) nasi putih matang",
+            "180 gram (±2 potong besar) ayam tanpa kulit",
+            "6 butir telur puyuh",
+            "100 gram (±2 potong sedang) tahu putih",
+            "150 gram (±1 buah sedang) kentang",
+            "100 gram (±1 buah kecil) wortel",
+            "50 gram (±½ mangkuk) daun bawang",
+            "Bumbu sup: 15 gram (±4 siung) bawang putih, 10 gram (±2 siung) bawang merah, 2 batang seledri, ½ sdt lada, ½ sdt garam, 15 ml (±1 sdm) minyak goreng"
+          ],
+          "instructions": [
+            "Rebus ayam hingga menjadi kaldu.",
+            "Masukkan kentang, wortel, tahu, dan telur puyuh.",
+            "Tambahkan bumbu.",
+            "Masak hingga matang.",
+            "Sajikan dengan nasi dan mangga."
+          ],
+          "fruit": "450 gram (±2 buah sedang) mangga",
+          "nutrition": {
+            "energy": "570 kkal",
+            "protein": "35 gram",
+            "fat": "21 gram"
+          }
+        },
+        {
+          "id": "ibu-hamil-nasi-tim-ayam-telur-tempe-bayam",
+          "title": "Nasi Tim Ayam Telur Tempe Bayam",
+          "servings": 3,
+          "ingredients": [
+            "180 gr (1½ gelas) beras",
+            "500 ml (2 gelas) kaldu ayam",
+            "2 lembar daun salam",
+            "1 batang serai",
+            "Garam secukupnya",
+            "150 gr (1 potong sedang) ayam cincang",
+            "150 gr (3 butir) telur ayam",
+            "100 gr (3 potong sedang) tempe",
+            "100 gr (1 ikat kecil) bayam",
+            "75 gr (1 buah sedang) wortel",
+            "50 gr (½ gelas) jagung manis pipil",
+            "2 sdm minyak kelapa/minyak goreng"
+          ],
+          "instructions": [
+            "Masak beras, daun salam, serai, dan garam dengan kaldu ayam hingga menjadi nasi tim.",
+            "Tumis ayam cincang dengan minyak.",
+            "Tambahkan tempe yang sudah dihancurkan.",
+            "Masukkan telur dan sayuran.",
+            "Sajikan nasi tim bersama lauk dan buah pepaya."
+          ],
+          "fruit": "300 gram pepaya matang",
+          "nutrition": {
+            "energy": "610 kkal",
+            "protein": "32 gram",
+            "fat": "22 gram"
+          }
+        },
+        {
+          "id": "ibu-hamil-nasi-pepes-ikan-lele-tempe-sayur",
+          "title": "Nasi Pepes Ikan Lele Tempe Sayur",
+          "servings": 3,
+          "ingredients": [
+            "450 gr (3 centong besar) nasi putih",
+            "3 ekor besar ikan lele",
+            "100 gr (3 potong sedang) tempe",
+            "150 gr (3 butir) telur rebus",
+            "1 ikat kecil daun kemangi",
+            "2 buah tomat",
+            "2 sdm minyak goreng"
+          ],
+          "instructions": [
+            "Bersihkan ikan lele.",
+            "Bungkus ikan dengan bumbu dan daun pisang.",
+            "Kukus hingga matang.",
+            "Sajikan bersama nasi, tempe, telur, dan buah."
+          ],
+          "fruit": "3 buah apel kecil",
+          "nutrition": {
+            "energy": "590 kkal",
+            "protein": "35 gram",
+            "fat": "22 gram"
+          }
+        }
+      ]
+    }
+  ]
+}

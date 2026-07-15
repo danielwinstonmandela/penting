@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  /* Leaf-meal Posyandu: cool herb greens, not cream/terracotta */
+  --background: #f7faf6;
+  --foreground: #1a2b1c;
+  --card: #ffffff;
+  --card-foreground: #1a2b1c;
+  --popover: #ffffff;
+  --popover-foreground: #1a2b1c;
+  --primary: #2f6b3a;
+  --primary-foreground: #ffffff;
+  --secondary: #e4efe6;
+  --secondary-foreground: #1a2b1c;
+  --muted: #eef4ef;
+  --muted-foreground: #3f5543;
+  --accent: #d8eadc;
+  --accent-foreground: #1a2b1c;
+  --destructive: #c0392b;
+  --border: #c9dbcce0;
+  --input: #c9dbcc;
+  --ring: #2f6b3a55;
+  --urgent: #c0392b;
+  --attention: #c17817;
+  --ok: #2f6b3a;
+  --neutral-status: #5a635c;
+  --footer: #1e3a24;
+  --radius: 0.875rem;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-urgent: var(--urgent);
+  --color-attention: var(--attention);
+  --color-ok: var(--ok);
+  --color-neutral-status: var(--neutral-status);
+  --color-footer: var(--footer);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  min-height: 100dvh;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.page-wash {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 70% 45% at 0% 0%, #d8eadc99 0%, transparent 55%),
+    radial-gradient(ellipse 50% 40% at 100% 10%, #e4efe688 0%, transparent 50%);
+}
+
+.hero-grain {
+  background-color: #1e3a24;
+  background-image:
+    radial-gradient(ellipse 90% 70% at 12% 0%, #3d8f5088 0%, transparent 58%),
+    radial-gradient(ellipse 60% 50% at 100% 85%, #14301a99 0%, transparent 52%),
+    radial-gradient(ellipse 40% 30% at 70% 20%, #f0c35a18 0%, transparent 45%);
+}
+
+.hero-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
