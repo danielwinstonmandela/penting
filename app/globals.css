@@ -78,6 +78,8 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  background-color: var(--landing-forest);
+  overscroll-behavior-y: none;
 }
 
 body {
@@ -169,11 +171,12 @@ body {
 
 .landing-visual-anchor {
   background: radial-gradient(
-    ellipse 80% 70% at 50% 40%,
-    rgb(79 168 95 / 0.35) 0%,
-    transparent 68%
+    ellipse 90% 80% at 50% 45%,
+    rgb(79 168 95 / 0.22) 0%,
+    rgb(79 168 95 / 0.06) 50%,
+    transparent 72%
   );
-  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .landing-eyebrow {

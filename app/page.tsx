@@ -58,15 +58,7 @@ export default function HomePage() {
 
             {/* Right: action rail */}
             <div className="relative lg:pl-2">
-              <div
-                className="landing-visual-anchor pointer-events-none absolute -top-8 right-0 left-0 -z-10 hidden h-48 lg:block"
-                aria-hidden
-              />
-              <div className="landing-action-panel relative overflow-hidden rounded-2xl p-6 sm:p-7">
-                <div
-                  className="pointer-events-none absolute -top-10 -right-10 size-36 rounded-full bg-[#4aa85c33] blur-3xl"
-                  aria-hidden
-                />
+              <div className="landing-action-panel relative rounded-2xl p-6 sm:p-7">
 
                 <div className="relative mb-6 flex items-center justify-center">
                   <div className="relative flex size-28 items-center justify-center rounded-full border border-white/15 bg-white/6 shadow-lg sm:size-32">
