@@ -76,6 +76,7 @@ export function CalculatorForm({ onSubmit }: Props) {
         {errors.ageMonths ? (
           <p className="text-sm text-destructive">{errors.ageMonths.message}</p>
         ) : null}
+        <p className="text-xs text-muted-foreground">{strings.fieldAgeHelp}</p>
       </div>
 
       <div className="grid gap-2">
@@ -94,6 +95,7 @@ export function CalculatorForm({ onSubmit }: Props) {
         {errors.weightKg ? (
           <p className="text-sm text-destructive">{errors.weightKg.message}</p>
         ) : null}
+        <p className="text-xs text-muted-foreground">{strings.fieldWeightHelp}</p>
       </div>
 
       <div className="grid gap-2">
@@ -112,6 +114,7 @@ export function CalculatorForm({ onSubmit }: Props) {
         {errors.heightCm ? (
           <p className="text-sm text-destructive">{errors.heightCm.message}</p>
         ) : null}
+        <p className="text-xs text-muted-foreground">{strings.fieldHeightHelp}</p>
       </div>
 
       <div className="grid gap-2">
@@ -143,6 +146,7 @@ export function CalculatorForm({ onSubmit }: Props) {
         {errors.sex ? (
           <p className="text-sm text-destructive">{errors.sex.message}</p>
         ) : null}
+        <p className="text-xs text-muted-foreground">{strings.fieldSexHelp}</p>
       </div>
 
       <Button type="submit" size="lg" className="h-12 w-full text-base">

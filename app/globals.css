@@ -26,6 +26,12 @@
   --ok: #2f6b3a;
   --neutral-status: #5a635c;
   --footer: #1e3a24;
+  --landing-forest: #1e3a24;
+  --landing-forest-deep: #14301a;
+  --landing-mint: #9fd4a8;
+  --landing-glow: #3d8f50;
+  --landing-cta: #3d9a52;
+  --landing-cta-hover: #348746;
   --radius: 0.875rem;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
@@ -96,11 +102,13 @@ body {
 }
 
 .hero-grain {
-  background-color: #1e3a24;
+  background-color: var(--landing-forest);
   background-image:
-    radial-gradient(ellipse 90% 70% at 12% 0%, #3d8f5088 0%, transparent 58%),
-    radial-gradient(ellipse 60% 50% at 100% 85%, #14301a99 0%, transparent 52%),
-    radial-gradient(ellipse 40% 30% at 70% 20%, #f0c35a18 0%, transparent 45%);
+    radial-gradient(ellipse 95% 75% at 8% -5%, #4aa85c66 0%, transparent 55%),
+    radial-gradient(ellipse 70% 55% at 92% 12%, #2f6b3a55 0%, transparent 50%),
+    radial-gradient(ellipse 55% 45% at 100% 88%, var(--landing-forest-deep) 0%, transparent 58%),
+    radial-gradient(ellipse 35% 28% at 68% 22%, #f0c35a14 0%, transparent 48%),
+    linear-gradient(165deg, #224a2c 0%, var(--landing-forest) 42%, var(--landing-forest-deep) 100%);
 }
 
 .hero-grain::after {
@@ -110,6 +118,92 @@ body {
   opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   pointer-events: none;
+}
+
+.landing-hero {
+  background-color: var(--landing-forest);
+  min-height: 100dvh;
+}
+
+.hero-ambient {
+  pointer-events: none;
+}
+
+.hero-ambient::before,
+.hero-ambient::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  opacity: 0.55;
+}
+
+.hero-ambient::before {
+  top: 8%;
+  right: -6%;
+  width: min(52vw, 28rem);
+  height: min(52vw, 28rem);
+  background: radial-gradient(circle, #4aa85c88 0%, transparent 70%);
+}
+
+.hero-ambient::after {
+  bottom: 12%;
+  left: -8%;
+  width: min(44vw, 22rem);
+  height: min(44vw, 22rem);
+  background: radial-gradient(circle, #2a5c3688 0%, transparent 72%);
+}
+
+.landing-action-panel {
+  border: 1px solid rgb(255 255 255 / 0.14);
+  background: linear-gradient(
+    145deg,
+    rgb(255 255 255 / 0.1) 0%,
+    rgb(255 255 255 / 0.04) 100%
+  );
+  box-shadow:
+    0 24px 48px -12px rgb(0 0 0 / 0.45),
+    inset 0 1px 0 rgb(255 255 255 / 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.landing-visual-anchor {
+  background: radial-gradient(
+    ellipse 80% 70% at 50% 40%,
+    rgb(79 168 95 / 0.35) 0%,
+    transparent 68%
+  );
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
+.landing-eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--landing-mint);
+}
+
+.landing-cta-primary {
+  background-color: var(--landing-cta);
+  color: #fff;
+  box-shadow: 0 12px 28px -8px rgb(61 154 82 / 0.65);
+}
+
+.landing-cta-primary:hover {
+  background-color: var(--landing-cta-hover);
+}
+
+.landing-cta-secondary {
+  border-color: rgb(255 255 255 / 0.38);
+  background-color: rgb(255 255 255 / 0.08);
+  color: #fff;
+}
+
+.landing-cta-secondary:hover {
+  border-color: rgb(255 255 255 / 0.5);
+  background-color: rgb(255 255 255 / 0.14);
+  color: #fff;
 }
 
 @media (prefers-reduced-motion: reduce) {

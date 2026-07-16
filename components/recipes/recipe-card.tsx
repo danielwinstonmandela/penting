@@ -11,9 +11,9 @@ type Props = {
 
 function NutritionPills({ recipe }: { recipe: Recipe }) {
   const pills = [
-    { key: "energy", value: recipe.nutrition.energy },
-    { key: "protein", value: recipe.nutrition.protein },
-    { key: "fat", value: recipe.nutrition.fat },
+    { key: "energy", label: strings.energyLabel, value: recipe.nutrition.energy },
+    { key: "protein", label: strings.proteinLabel, value: recipe.nutrition.protein },
+    { key: "fat", label: strings.fatLabel, value: recipe.nutrition.fat },
   ].filter((pill) => pill.value.trim() !== "");
 
   if (pills.length === 0) return null;
@@ -25,6 +25,7 @@ function NutritionPills({ recipe }: { recipe: Recipe }) {
           key={pill.key}
           className="rounded-full bg-secondary px-2.5 py-1 text-xs font-medium text-secondary-foreground"
         >
+          <span className="text-muted-foreground">{pill.label}: </span>
           {pill.value}
         </li>
       ))}

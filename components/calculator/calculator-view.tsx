@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import {
   CalculatorForm,
@@ -21,6 +21,8 @@ export function CalculatorView() {
   const [result, setResult] = useState<GrowthResult | null>(null);
   const [recipes, setRecipes] = useState<Recipe[]>([]);
   const [ageGroup, setAgeGroup] = useState<string | null>(null);
+  const [shouldScrollToResult, setShouldScrollToResult] = useState(false);
+  const resultsRef = useRef<HTMLDivElement | null>(null);
 
   function handleSubmit(values: CalculatorFormValues) {
     const next = calculateGrowth({
@@ -33,9 +35,21 @@ export function CalculatorView() {
     setResult(next);
     setRecipes(recommended.recipes);
     setAgeGroup(recommended.ageGroup);
+    setShouldScrollToResult(true);
   }
 
   const targets = result ? getNutritionTarget(result.ageMonths) : null;
+
+  useEffect(() => {
+    if (!shouldScrollToResult || !result || !targets || !resultsRef.current) {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      setShouldScrollToResult(false);
+    });
+  }, [result, shouldScrollToResult, targets]);
 
   return (
     <div className="grid gap-8">
@@ -47,6 +61,11 @@ export function CalculatorView() {
           {strings.calculatorSubtitle}
         </p>
       </header>
+      <section className="rounded-2xl border border-border bg-card p-4">
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {strings.appPurpose}
+        </p>
+      </section>
 
       <div
         className={
@@ -58,7 +77,10 @@ export function CalculatorView() {
         <CalculatorForm onSubmit={handleSubmit} />
 
         {result && targets ? (
-          <div className="grid gap-8 border-t border-border pt-8 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-10">
+          <div
+            ref={resultsRef}
+            className="grid gap-8 border-t border-border pt-8 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-10"
+          >
             <ResultCard result={result} targets={targets} />
             <RecipeRecommendation
               ageGroup={ageGroup}

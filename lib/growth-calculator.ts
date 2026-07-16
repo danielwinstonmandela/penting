@@ -23,6 +23,10 @@ export type GrowthResult = {
   sex: Sex;
   weightKg: number;
   heightCm: number;
+  weightKgNormal: number;
+  heightCmNormal: number;
+  weightDiffKg: number;
+  heightDiffCm: number;
   wfa: IndicatorStatus;
   hfa: IndicatorStatus;
   primary: IndicatorStatus;
@@ -178,12 +182,20 @@ export function calculateGrowth(input: {
   const wfa = classifyWfa(wfaZ);
   const hfa = classifyHfa(hfaZ);
   const { primary, primarySource } = pickPrimary(wfa, hfa);
+  const weightKgNormal = wfaLms.M;
+  const heightCmNormal = hfaLms.M;
+  const weightDiffKg = weightKg - weightKgNormal;
+  const heightDiffCm = heightCm - heightCmNormal;
 
   return {
     ageMonths,
     sex,
     weightKg,
     heightCm,
+    weightKgNormal,
+    heightCmNormal,
+    weightDiffKg,
+    heightDiffCm,
     wfa,
     hfa,
     primary,

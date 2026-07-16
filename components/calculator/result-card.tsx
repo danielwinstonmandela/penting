@@ -42,6 +42,24 @@ type Props = {
 export function ResultCard({ result, targets }: Props) {
   const secondary =
     result.primarySource === "hfa" ? result.wfa : result.hfa;
+  const comparisons = [
+    {
+      key: "weight",
+      label: strings.wfaLabel,
+      child: `${result.weightKg.toFixed(1)} kg`,
+      normal: `${result.weightKgNormal.toFixed(1)} kg`,
+      diff: result.weightDiffKg,
+      unit: "kg",
+    },
+    {
+      key: "height",
+      label: strings.hfaLabel,
+      child: `${result.heightCm.toFixed(1)} cm`,
+      normal: `${result.heightCmNormal.toFixed(1)} cm`,
+      diff: result.heightDiffCm,
+      unit: "cm",
+    },
+  ] as const;
 
   return (
     <motion.section
@@ -108,6 +126,9 @@ export function ResultCard({ result, targets }: Props) {
           <summary className="cursor-pointer text-sm font-medium text-muted-foreground">
             {strings.zScoreDetail}
           </summary>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+            {strings.zScoreSimpleExplain}
+          </p>
           <dl className="mt-2 grid gap-1 text-sm">
             <div className="flex justify-between gap-3">
               <dt>HFA</dt>
@@ -123,6 +144,50 @@ export function ResultCard({ result, targets }: Props) {
             </div>
           </dl>
         </details>
+      </div>
+
+      <div className="rounded-2xl border border-border bg-card p-4">
+        <h3 className="font-display text-lg font-semibold">
+          {strings.resultComparisonTitle}
+        </h3>
+        <p className="mt-1 text-sm text-muted-foreground">
+          {strings.stuntingExplainFromResult}
+        </p>
+        <div className="mt-4 grid gap-3">
+          {comparisons.map((item) => {
+            const absDiff = Math.abs(item.diff).toFixed(1);
+            const directionLabel =
+              item.diff > 0
+                ? strings.differenceAboveNormal
+                : item.diff < 0
+                  ? strings.differenceBelowNormal
+                  : strings.differenceOnNormal;
+            return (
+              <div
+                key={item.key}
+                className="rounded-xl border border-border bg-secondary/50 p-3"
+              >
+                <p className="text-sm font-medium text-muted-foreground">{item.label}</p>
+                <dl className="mt-2 grid gap-1 text-sm">
+                  <div className="flex items-center justify-between gap-3">
+                    <dt>{strings.childValueLabel}</dt>
+                    <dd className="font-semibold">{item.child}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-3">
+                    <dt>{strings.whoNormalLabel}</dt>
+                    <dd>{item.normal}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-3">
+                    <dt>{strings.differenceLabel}</dt>
+                    <dd>
+                      {absDiff} {item.unit} {directionLabel}
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className="rounded-2xl border border-border bg-card p-4">

@@ -7,6 +7,13 @@ export const strings = {
   landingHeadline: "Dari timbang Posyandu ke piring MPASI — dalam hitungan detik.",
   landingSupport:
     "Untuk kader dan ibu: masukkan usia, berat, tinggi, dan jenis kelamin. Langsung dapat status pertumbuhan serta saran resep.",
+  landingStuntingFocus:
+    "Fokus utama aplikasi ini adalah pencegahan stunting melalui pemantauan pertumbuhan dan panduan MPASI yang sesuai usia.",
+  landingFeatureGuideTitle: "Mulai dari fitur yang Anda butuhkan",
+  landingFeatureGuideCalculator:
+    "Cek status tumbuh anak, lihat perbandingan dengan standar WHO, lalu dapatkan target nutrisi harian.",
+  landingFeatureGuideRecipes:
+    "Buka panduan MPASI untuk melihat resep lengkap sesuai kelompok usia anak.",
   ctaCalculator: "Hitung Nutrisi",
   ctaRecipes: "Panduan MPASI",
   navCalculator: "Kalkulator",
@@ -14,17 +21,41 @@ export const strings = {
   calculatorTitle: "Kalkulator Tumbuh & Nutrisi",
   calculatorSubtitle:
     "Isi keempat data di satu layar. Hasil muncul di bawah formulir — tanpa pindah halaman.",
+  stuntingQuickTitle: "Kenali stunting dalam hitungan detik",
+  stuntingQuickBody:
+    "Stunting adalah kondisi tinggi badan anak lebih rendah dari standar usianya karena masalah gizi yang berlangsung lama. Tanda utama diukur dari tinggi menurut usia.",
+  mpasiQuickTitle: "Apa itu MPASI?",
+  mpasiQuickBody:
+    "MPASI adalah makanan pendamping ASI yang mulai diberikan sejak usia 6 bulan untuk melengkapi kebutuhan gizi anak.",
+  appPurpose:
+    "Aplikasi ini membantu ibu dan kader Posyandu memantau pertumbuhan, membandingkan dengan standar WHO, lalu memilih resep MPASI yang sesuai usia.",
   fieldAge: "Usia (bulan)",
   fieldWeight: "Berat Badan (kg)",
   fieldHeight: "Tinggi/Panjang Badan (cm)",
   fieldSex: "Jenis Kelamin",
+  fieldAgeHelp: "Isi usia anak dalam bulan (0 sampai 60).",
+  fieldWeightHelp: "Gunakan berat terbaru anak dalam kilogram (kg).",
+  fieldHeightHelp: "Gunakan tinggi atau panjang badan terbaru dalam sentimeter (cm).",
+  fieldSexHelp: "Pilih jenis kelamin agar standar WHO sesuai.",
   sexMale: "Laki-laki",
   sexFemale: "Perempuan",
   submitCalculate: "Hitung Sekarang",
   resultTitle: "Hasil Pertumbuhan",
+  resultComparisonTitle: "Standar WHO (Normal) vs Anak",
+  childValueLabel: "Nilai anak",
+  whoNormalLabel: "Standar WHO (median)",
+  differenceLabel: "Selisih",
+  differenceAboveNormal: "di atas standar",
+  differenceBelowNormal: "di bawah standar",
+  differenceOnNormal: "sesuai standar",
+  stuntingExplainFromResult:
+    "Fokus stunting ada pada tinggi menurut usia. Jika z-score tinggi menurut usia < -2, anak masuk kategori pendek (stunted).",
   resultTargetsTitle: "Target Nutrisi Harian",
   resultRecipesTitle: "Rekomendasi Resep",
+  recipeCardsHint: "Klik kartu resep untuk melihat bahan, checklist, dan langkah membuatnya.",
   zScoreDetail: "Detail angka Z-score (untuk kader)",
+  zScoreSimpleExplain:
+    "Z-score menunjukkan jarak hasil anak dari standar WHO seusianya. Nilai 0 berarti tepat di median, nilai negatif berarti di bawah median, dan nilai positif berarti di atas median.",
   wfaLabel: "Berat menurut usia",
   hfaLabel: "Tinggi menurut usia",
   energyLabel: "Energi",
@@ -38,6 +69,8 @@ export const strings = {
   allAges: "Semua",
   servingsLabel: "porsi",
   ingredientsTitle: "Bahan",
+  ingredientsChecklistHint:
+    "Centang bahan yang sudah tersedia agar persiapan memasak lebih mudah.",
   instructionsTitle: "Cara Membuat",
   nutritionTitle: "Informasi Nilai Gizi",
   fruitLabel: "Pelengkap Buah",

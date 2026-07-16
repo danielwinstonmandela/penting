@@ -50,6 +50,26 @@ describe("status classification", () => {
       Math.max(result.wfa.severity, result.hfa.severity),
     );
   });
+
+  it("returns WHO median and child differences", () => {
+    const result = calculateGrowth({
+      ageMonths: 12,
+      weightKg: 10.2,
+      heightCm: 75.5,
+      sex: "female",
+    });
+
+    expect(result.weightKgNormal).toBeGreaterThan(0);
+    expect(result.heightCmNormal).toBeGreaterThan(0);
+    expect(result.weightDiffKg).toBeCloseTo(
+      result.weightKg - result.weightKgNormal,
+      6,
+    );
+    expect(result.heightDiffCm).toBeCloseTo(
+      result.heightCm - result.heightCmNormal,
+      6,
+    );
+  });
 });
 
 describe("mapAgeToRecipeGroup", () => {

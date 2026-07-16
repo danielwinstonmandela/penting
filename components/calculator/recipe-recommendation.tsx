@@ -18,6 +18,7 @@ export function RecipeRecommendation({ ageGroup, recipes, tooYoung }: Props) {
       <h3 className="font-display text-lg font-semibold">
         {strings.resultRecipesTitle}
       </h3>
+      <p className="text-sm text-muted-foreground">{strings.recipeCardsHint}</p>
       {tooYoung || !ageGroup ? (
         <p className="rounded-2xl border border-border bg-muted/60 px-4 py-3 text-sm leading-relaxed">
           {strings.exclusiveBreastfeedingNote} {strings.mpasiTooYoung}

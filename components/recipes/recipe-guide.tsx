@@ -45,7 +45,15 @@ export function RecipeGuide({
         </p>
       </header>
 
+      <section className="grid gap-2 rounded-2xl border border-border bg-card p-4">
+        <p className="text-sm font-semibold">{strings.mpasiQuickTitle}</p>
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {strings.mpasiQuickBody}
+        </p>
+      </section>
+
       <AgeFilterChips chips={chips} active={activeAgeGroup} />
+      <p className="text-sm text-muted-foreground">{strings.recipeCardsHint}</p>
 
       {grouped ? (
         <div className="grid gap-8">
