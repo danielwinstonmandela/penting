@@ -158,11 +158,9 @@ body {
 
 .landing-action-panel {
   border: 1px solid rgb(255 255 255 / 0.14);
-  background: linear-gradient(
-    145deg,
-    rgb(255 255 255 / 0.1) 0%,
-    rgb(255 255 255 / 0.04) 100%
-  );
+  background: linear-gradient(145deg,
+      rgb(255 255 255 / 0.1) 0%,
+      rgb(255 255 255 / 0.04) 100%);
   box-shadow:
     0 24px 48px -12px rgb(0 0 0 / 0.45),
     inset 0 1px 0 rgb(255 255 255 / 0.12);
@@ -170,12 +168,10 @@ body {
 }
 
 .landing-visual-anchor {
-  background: radial-gradient(
-    ellipse 90% 80% at 50% 45%,
-    rgb(79 168 95 / 0.22) 0%,
-    rgb(79 168 95 / 0.06) 50%,
-    transparent 72%
-  );
+  background: radial-gradient(ellipse 90% 80% at 50% 45%,
+      rgb(79 168 95 / 0.22) 0%,
+      rgb(79 168 95 / 0.06) 50%,
+      transparent 72%);
   mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
@@ -210,6 +206,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

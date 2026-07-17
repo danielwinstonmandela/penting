@@ -20,6 +20,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000",
+  ),
   title: {
     default: `${strings.appName} — ${strings.appFullName}`,
     template: `%s · ${strings.appName}`,
@@ -40,6 +43,20 @@ export const metadata: Metadata = {
       { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  openGraph: {
+    type: "website",
+    siteName: strings.appNameWithFull,
+    title: `${strings.appName} — ${strings.appFullName}`,
+    description: strings.tagline,
+    images: [
+      {
+        url: "/icons/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: strings.appName,
+      },
+    ],
   },
 };
 
